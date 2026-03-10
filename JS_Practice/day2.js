@@ -23,7 +23,7 @@ const formatDestination = ({locationName, vacationType, budget}) => {
   }else {
     vacType = `[${vacationType}]`
   }
-  return `${vacType}  ${locationName} (${budget})`
+  return `${vacType}  ${locationName} (£${budget})`
 };
 
 
