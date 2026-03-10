@@ -19,18 +19,19 @@ const formatDestination = ({locationName, vacationType, budget}) => {
   } else {
     return `[Nature Retreat] ${locationName} (${budget})`
   }
-}
+};
 
 
 // Step 3: Use .map() to create your formattedBrochure array here
 const formattedBrochure = holidayDestinations.map((destination) => {
   return formatDestination(destination)
-}) 
+});
 
 
 // Step 4: console.log your formattedBrochure array
 console.log(formattedBrochure);
 
+/* "['[Beach Getaway] Maldives (1200)','[City Break] Tokyo (800)','[Nature Retreat] Swiss Alps (1500)','[Beach Getaway] Bali (900)','[City Break] New York (1100)']"*/
 
 // const petName = "Nala";
 // const petType = "cub";
