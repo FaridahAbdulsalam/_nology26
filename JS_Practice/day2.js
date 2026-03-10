@@ -15,12 +15,15 @@ const holidayDestinations = [
 
 const formatDestination = ({locationName, vacationType, budget}) => {
   if(vacationType === "beach"){
-    return `[Beach Getaway] ${locationName} (${budget})`
+    vacType = "[Beach Getaway]"
   }else if(vacationType === "city"){
-    return `[City Break] ${locationName} (${budget})`
-  } else {
-    return `[Nature Retreat] ${locationName} (${budget})`
+    vacType = "[City Break]"
+  } else if(vacationType === "nature"){
+    vacType = "[Nature Retreat]"
+  }else {
+    vacType = `[${vacationType}]`
   }
+  return `${vacType}  ${locationName} (${budget})`
 };
 
 
