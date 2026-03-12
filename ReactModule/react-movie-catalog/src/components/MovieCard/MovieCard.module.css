@@ -1,0 +1,25 @@
+.movieCard{
+    border: 4px double #005681;
+    padding: 5px;
+    text-align: left;
+    background-color: #ff90b763;
+    border-radius: 5px;
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.director{
+    font-family: cursive;
+}
+
+.year{
+    font-family: cursive;
+}
+
+.rating {
+    font-family: cursive;
+    text-align: right;
+}

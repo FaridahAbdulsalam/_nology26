@@ -1,0 +1,10 @@
+.header{
+    color:	#005681;
+}
+.movieList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #0db39a;
+}
+
