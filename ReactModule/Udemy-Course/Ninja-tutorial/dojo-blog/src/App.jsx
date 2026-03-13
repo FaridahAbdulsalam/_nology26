@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar/Navbar.jsx'
+import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home/Home.jsx'
 
 const App = () => {
